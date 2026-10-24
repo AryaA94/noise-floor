@@ -1,0 +1,17 @@
+# Build directories
+build/
+build-*/
+out/
+_deps/
+compile_commands.json
+
+# web/build_web.sh scratch directory (recreated on every build).
+# web/dist/ is committed: GitHub Pages deploys it as is.
+web/_wasm_build/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
